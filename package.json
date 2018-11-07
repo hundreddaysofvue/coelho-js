@@ -1,0 +1,27 @@
+{
+  "name": "coelhojs",
+  "version": "1.0.0",
+  "description": "A list of Paulo Coelho quotes from his books",
+  "main": "index.html",
+  "repository": "https://github.com/thousanddaysofvue/project21",
+  "author": "Jhony Grillet <grilletjhony@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "vue": "^2.5.17",
+    "vue-hot-reload-api": "^2.3.1",
+    "vue-localstorage": "^0.6.2"
+  },
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^2.3.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "parcel-bundler": "^1.10.3",
+    "vue-template-compiler": "^2.5.17"
+  }
+}
