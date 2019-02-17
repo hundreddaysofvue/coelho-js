@@ -21,6 +21,7 @@ This project also belongs to #100DaysOfVue initiative.
 3. [K.I.S.S Principle][7]
 4. How to work with [dotenv][6] files.
 5. How to config a dataset in [JEXIA][3]
+6. How to setup public URLs for assets on [Parcel][1]
 
 Also, I really want to thank you [@ammezie](https://github.com/ammezie) for
 [this][8] information about how to make things work with [Parcel][1] and Vue.
