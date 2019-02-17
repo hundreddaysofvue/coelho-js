@@ -1,5 +1,5 @@
 {
-  "name": "coelhojs",
+  "name": "coelho-js",
   "version": "1.0.0",
   "description": "A list of Paulo Coelho quotes from his books",
   "main": "index.html",
@@ -9,7 +9,7 @@
   "private": false,
   "scripts": {
     "dev": "parcel index.html",
-    "build": "parcel build index.html"
+    "build": "parcel build index.html --public-url /coelho-js"
   },
   "dependencies": {
     "axios": "^0.18.0",
