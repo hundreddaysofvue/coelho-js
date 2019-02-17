@@ -8,7 +8,7 @@
     <article class="message" v-else>
       {{ msg }}
     </article>
-    <button @click="getBookquote()">Test Button</button>
+    <button @click="getBookquote()">Magic!</button>
   </div>
 </template>
 
@@ -58,15 +58,23 @@ h2 {
   font-size: 4rem;
 }
 button {
-  background-color: #01579B;
+  background-color: dodgerblue;
+  outline: 0;
+  border: 1px solid #F0F0F0;
+  border-radius: 1rem;
   color: white;
   font-size: 2rem;
   margin-top: 2rem;
   padding: 1rem 2rem;
+  transition: all .5s ease;
+}
+button:hover {
+  background-color: #0252A0;
 }
 .container {
   text-align: center;
-  margin-top: 4rem;
+  width: 80vh;
+  margin: 1rem auto;
 }
 .message {
   font-size: 1.5rem;
